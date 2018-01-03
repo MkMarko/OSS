@@ -1,7 +1,7 @@
 <?php
 /**
  *
- *
+ *	阿里云OSS图片存储 使用方法
  * 	
  *	1.引入Oss SDK; 
 		composer require aliyuncs/oss-sdk-php 
