@@ -143,7 +143,7 @@ class Oss
 		$arr['Message'] = '删除成功';
 		return $arr;
 	}
-
+	//
 	/**
 	 * OSS 判断文件是否存在
 	 * @param  OSS对象
