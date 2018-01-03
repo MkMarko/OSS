@@ -1,6 +1,23 @@
 <?php
+/**
+ *
+ *
+ * 	
+ *	1.引入Oss SDK; 
+		composer require aliyuncs/oss-sdk-php 
+		composer install   安装依赖
+	2.在入口文件引入自动加载文件
+		require_once __DIR__ . '/vendor/autoload.php';
+	3.use命名空间 
+		use OSS\OssClient;
+		use OSS\Core\OssException;
+ *
+ *
+ *
+ *
+ * 
+ */
 namespace Admin\Controller\Article;
-
 class Oss
 {
 
@@ -102,8 +119,8 @@ class Oss
 	 * @return 数组 Error=0 成功 Error=1错误 Message获取错误信息
 	 *
 	 * $arr = [
-				"abc/5.治疗.jpg",
-				"abc/5.积分操作 -积分明细.jpg",
+				"abc/1.jpg",
+				"abc/2.jpg",
 		  	];
 	 * 调用方法 : $this->deleteFile($ossClient,$setting['bucket'],$arr);
 	 */
